@@ -1,12 +1,14 @@
 {
   "name": "coworking-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "install-all": "npm install",
+    "backend:dev": "npm run dev --workspace=backend",
+    "frontend:dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspaces"
+  }
 }

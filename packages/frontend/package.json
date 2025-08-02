@@ -1,0 +1,17 @@
+{
+    "name": "frontend",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "test": "vite build && echo 'Frontend build test passed'"
+    },
+    "dependencies": {
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-react": "^4.4.2",
+      "vite": "^5.4.9"
+    }
+  }
