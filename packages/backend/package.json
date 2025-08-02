@@ -1,0 +1,14 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "node src/index.js",
+      "start": "node src/index.js",
+      "build": "echo 'Building backend...'",
+      "test": "echo 'Running backend tests...'"
+    },
+    "dependencies": {
+      "express": "^4.21.1",
+      "cors": "^2.8.5"
+    }
+  }
